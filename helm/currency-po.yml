@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: currency-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: currency-service
+  template:
+    metadata:
+      labels:
+        run: currency-service
+    spec:
+      containers:
+      - name: currency-service
+        image: currency-service:0.0.1
+        ports:
+        - containerPort: 8080
