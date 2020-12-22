@@ -1,0 +1,10 @@
+kubectl apply -f rate-po.yml
+kubectl delete -f rate-po.yml
+
+kubectl get po,svc
+
+kubectl exec pod/currency-rate-service-fd8bbb8f9-wfft7 -it -- bash
+
+D:\Work\Workspace\github\spring-boot-kubernetes>kubectl exec pod/currency-rate-service-fd8bbb8f9-wfft7 -it -- bash
+root@currency-service-fd8bbb8f9-wfft7:/app# curl currency-rate-service:8090/rate/euro
+89.95

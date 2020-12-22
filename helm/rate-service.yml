@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: currency-rate-service
+  labels:
+    run: currency-rate-service
+spec:
+  ports:
+  -  port: 8090
+     protocol: TCP
+  selector:
+    run: currency-rate-service

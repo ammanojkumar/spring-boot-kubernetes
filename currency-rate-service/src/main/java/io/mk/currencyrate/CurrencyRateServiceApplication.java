@@ -1,13 +1,13 @@
-package io.mk.currencyconvert;
+package io.mk.currencyrate;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CurrencyConvertServiceApplication {
+public class CurrencyRateServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CurrencyConvertServiceApplication.class, args);
+		SpringApplication.run(CurrencyRateServiceApplication.class, args);
 	}
 
 }

@@ -10,10 +10,10 @@
 	</parent>
 
 	<groupId>io.mk.currencyconvert</groupId>
-	<artifactId>currency-convert-service</artifactId>
+	<artifactId>currency-rate-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>currency-convert-service</name>
-	<description>Currency convert service Spring Boot</description>
+	<name>currency-rate-service</name>
+	<description>Currency rate service Spring Boot</description>
 
 	<properties>
 		<java.version>11</java.version>

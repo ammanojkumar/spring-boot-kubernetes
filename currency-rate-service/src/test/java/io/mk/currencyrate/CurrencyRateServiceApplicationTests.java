@@ -1,10 +1,10 @@
-package io.mk.currencyconvert;
+package io.mk.currencyrate;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CurrencyConvertServiceApplicationTests {
+class CurrencyRateServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -19,7 +19,7 @@
 	</parent>
 
 	<modules>
-		<module>currency-convert-service</module>
+		<module>currency-rate-service</module>
 		<module>currency-service</module>
 	</modules>	
 
